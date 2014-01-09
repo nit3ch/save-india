@@ -6,19 +6,33 @@
     <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
     <link href="csss/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <title>Save India </title>
   <body ng-controller="ActionsCtrl">
+  <div class="container">
     <div class="header">
-      <h1> Make India a better place to live </h1>
-      <h6> Everything has been said before, but since nobody listens we have to keep going back and beginning all over again. -- Andre Gide </h6>
-    </div>
-    <div>
-      <ul>
-        <li ng-repeat="action in actions">
-         {{ action.doOrDonot}} {{action.ActionPoint}}
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <center><h1> Make India A Better Place To Live </h1>
+      <h6><i> Everything has been said before, but since nobody listens we have to keep going back and beginning all over again. -- Andre Gide </i></h6></center>
+    </nav>
+ </div>
+    <div class="action-list-overview">
+      <ul class="action-list">
+        <li ng-repeat="action in actions" class="alert alert-info">
+         {{action.ActionPoint}}
         </li>
       </ul>
+    </div>
+    <div class="footer">
+      <nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
+        <H3><center> Contribute To This List Using
+        <span><a href="https://github.com/nit3ch/save-india/blob/master/README.md" target="_blank">GitHub Pull Request</a></span> OR
+        <span><a href="https://docs.google.com/spreadsheet/ccc?key=0AqpyDckmEOcNdEhUSG1aMmhfNFdvU2x0bi1RUVF1VkE&usp=sharing" target="_blank">Google Spreadsheet</a></span> OR
+        <span><a href="https://twitter.com/nit3ch" target="_blank">Tweet Me</a></span>
+        </center></H3>
+      </nav>
+    </div>
     </div>
   </body>
 </html>

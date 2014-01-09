@@ -1,14 +1,14 @@
 [
   {
-    "doOrDonot":"Do",
+    "tag":"traffic",
     "ActionPoint":"Follow the trafic rules"
   },
   {
-    "doOrDonot":"Do",
+    "tag":"Public",
     "ActionPoint":"Stand in Queues and keep a arm distance"
   },
   {
-    "doOrDonot":"Don't",
-    "ActionPoint":"Do lettering here and there, keep india clean"
+    "tag":"",
+    "ActionPoint":"Do not litter here and there, keep india clean"
   }
 ]
