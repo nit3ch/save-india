@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html ng-app>
+  <head>
+    <script src="js/angular.js"></script>
+    <script src="js/custom.js"></script>
+    <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
+    <link href="csss/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <title>Save India </title>
+  <body ng-controller="ActionsCtrl">
+    <div class="header">
+      <h1> Make India a better place to live </h1>
+      <h6> Everything has been said before, but since nobody listens we have to keep going back and beginning all over again. -- Andre Gide </h6>
+    </div>
+    <div>
+      <ul>
+        <li ng-repeat="action in actions">
+         {{ action.doOrDonot}} {{action.ActionPoint}}
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>
