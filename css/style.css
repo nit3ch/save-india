@@ -1,5 +1,7 @@
 body {
-  background-image: #000000;
+  background-images: url('../img/410px-Ashoka_Chakra_1.png');
+  background-repeat:no-repeat;
+  background-position:center top 110px;
   padding-top: 10%;
   padding-bottom: 10%;
 }
@@ -11,9 +13,13 @@ body {
 .navbar-fixed-bottom {
   background-color: #118806;
 }
-.action-list-overview {
 
-}
-.alert-info {
+.alert-info ,.alert-danger {
   list-style: none;
+}
+#main {
+  color :red;
+}
+#resource a{
+  color :green;
 }

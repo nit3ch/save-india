@@ -1,14 +1,50 @@
 [
   {
     "tag":"traffic",
-    "ActionPoint":"Follow the trafic rules"
+    "ActionPoint":"Follow the trafic rules",
+    "Description" :"This will save money, time and life. Administration may be bit loose here but it it our responsibility to follow the rules. Just for the sake of our time we put others in problem.",
+    "Resource": "http://www.youtube.com/watch?v=tPLk9rDl_Wk"
   },
   {
     "tag":"Public",
-    "ActionPoint":"Stand in Queues and keep a arm distance"
+    "ActionPoint":"Stand in Queues and keep an arm distance",
+    "Description" :"Try to follow the queue in public places like ticket couter, bus stands , lifts. And there should be some space after each people. We people here in India are so intelligent that they will find some JUGAAD to break into the queue .",
+    "Resource":"http://www.reddit.com/r/pics/comments/1e4l6m/this_is_how_indians_queue/"
   },
   {
-    "tag":"",
-    "ActionPoint":"Do not litter here and there, keep india clean"
+    "tag":"public",
+    "ActionPoint":"Do not litter here and there, keep india clean",
+    "Description" :"Belive me, Changing a small habit will surley make a big difference. This is how you can help your country grow, just don't throw garbage anywhere.",
+    "Resource": "http://www.youtube.com/watch?v=fsdGsUOKWu4"
+  },
+   {
+    "tag":"Traffic",
+    "ActionPoint":"Do not honk unnecessarily",
+    "Description" :"This is our favorite time pass when we are stuck in traffic, or even on a empty road or a toll booth.",
+    "Resource": "http://www.youtube.com/watch?v=s3BzHO0mT5s#t=102"
+  },
+   {
+    "tag":"Public",
+    "ActionPoint":"Do not spit here and there",
+    "Description" :"'Cleanliness is next to godliness', what one can say more than this",
+    "Resource": "http://www.youtube.com/watch?v=sH4B85-Cx9k"
+  },
+  {
+    "tag":"Public",
+    "ActionPoint":"Do not pee on roadside, Use urinals",
+    "Description" :"I know there is not much public urinals here in india on raod side but still this is a bad habit we should try to avoid it, doesn't look good.",
+    "Resource": "http://www.youtube.com/watch?v=czN541vaDEU"
+  },
+  {
+    "tag":"Public",
+    "ActionPoint":"Do not smoke in public",
+    "Description" :"Passive smoking can also be dangerous.",
+    "Resource": "http://www.youtube.com/watch?v=4Vn3mLIlqp4"
+  },
+   {
+    "tag":"Manners",
+    "ActionPoint":"Be puntual",
+    "Description" :"In india IST is defined as 'Indian stretchable time' We should respect other's time and should be puntual. ",
+    "Resource": ""
   }
 ]
